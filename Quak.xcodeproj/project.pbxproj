@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A15D53E1E0420D500502495 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A15D53D1E0420D500502495 /* BaseNavigationController.swift */; };
+		780BA6601DB0AD7D005E4BD2 /* schemes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 780BA65F1DB0AD7D005E4BD2 /* schemes.plist */; };
+		780BA6621DB0B886005E4BD2 /* DWMainCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780BA6611DB0B886005E4BD2 /* DWMainCollectionController.swift */; };
+		781492D61DC09F4900A44D09 /* Pods_All_Quak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781492D51DC09F4900A44D09 /* Pods_All_Quak.framework */; };
+		78194EE61DB49AFD004752B2 /* DWItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78194EE51DB49AFD004752B2 /* DWItems.swift */; };
+		7839DD211DB71A4700CA72DE /* DWRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7839DD201DB71A4700CA72DE /* DWRoundView.swift */; };
+		7839DD231DB766FB00CA72DE /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7839DD221DB766FB00CA72DE /* String+.swift */; };
+		78605FE01DB60A3100FA775F /* DWTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78605FDF1DB60A3100FA775F /* DWTextField.swift */; };
+		7865865E1DB8A8F800264391 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7865865D1DB8A8F800264391 /* UIView+.swift */; };
+		786586601DB8B86E00264391 /* DWWidgetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7865865F1DB8B86E00264391 /* DWWidgetView.xib */; };
+		786586621DB8B8D400264391 /* DWWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786586611DB8B8D400264391 /* DWWidgetView.swift */; };
+		786940111DB6029D008E0D79 /* AddCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7869400F1DB6029D008E0D79 /* AddCell.storyboard */; };
+		786940171DB602FC008E0D79 /* AddCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786940161DB602FC008E0D79 /* AddCellViewController.swift */; };
+		787435641DAF5BE800F0AAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787435631DAF5BE800F0AAAB /* AppDelegate.swift */; };
+		787435691DAF5BE800F0AAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 787435671DAF5BE800F0AAAB /* Main.storyboard */; };
+		7874356B1DAF5BE800F0AAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7874356A1DAF5BE800F0AAAB /* Assets.xcassets */; };
+		7874356E1DAF5BE800F0AAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7874356C1DAF5BE800F0AAAB /* LaunchScreen.storyboard */; };
+		78BF74611DB614EA001E7141 /* DWTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF74601DB614EA001E7141 /* DWTextView.swift */; };
+		78C5208D1DB0BD6F0063E767 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C5208C1DB0BD6F0063E767 /* UIDevice+.swift */; };
+		78C5208F1DB0C7B10063E767 /* DWGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C5208E1DB0C7B10063E767 /* DWGradientView.swift */; };
+		78C520911DB0CA1D0063E767 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C520901DB0CA1D0063E767 /* UIColor+.swift */; };
+		78C520931DB0E7BE0063E767 /* DWIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C520921DB0E7BE0063E767 /* DWIconCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ECF077D3DC82340165D2B7E /* Pods-All-Quak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-All-Quak.release.xcconfig"; path = "Pods/Target Support Files/Pods-All-Quak/Pods-All-Quak.release.xcconfig"; sourceTree = "<group>"; };
+		1532C550CD48174A49B767EA /* Pods_All_Quak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_All_Quak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAA8A1F3CC3352F28FC8110 /* Pods-All-Quak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-All-Quak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-All-Quak/Pods-All-Quak.debug.xcconfig"; sourceTree = "<group>"; };
+		4A15D53C1E03EE2400502495 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4A15D53D1E0420D500502495 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		780BA65F1DB0AD7D005E4BD2 /* schemes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = schemes.plist; sourceTree = "<group>"; };
+		780BA6611DB0B886005E4BD2 /* DWMainCollectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWMainCollectionController.swift; sourceTree = "<group>"; };
+		781492D51DC09F4900A44D09 /* Pods_All_Quak.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_All_Quak.framework; path = "../../../Library/Developer/Xcode/DerivedData/Quak-ffmpshkjpuapsjceaxlgmjbygsjw/Build/Products/Debug-iphonesimulator/Pods_All_Quak.framework"; sourceTree = "<group>"; };
+		78194EE51DB49AFD004752B2 /* DWItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWItems.swift; sourceTree = "<group>"; };
+		7839DD201DB71A4700CA72DE /* DWRoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWRoundView.swift; sourceTree = "<group>"; };
+		7839DD221DB766FB00CA72DE /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		78605FDF1DB60A3100FA775F /* DWTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWTextField.swift; sourceTree = "<group>"; };
+		7865865D1DB8A8F800264391 /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		7865865F1DB8B86E00264391 /* DWWidgetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWWidgetView.xib; sourceTree = "<group>"; };
+		786586611DB8B8D400264391 /* DWWidgetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWWidgetView.swift; sourceTree = "<group>"; };
+		786940101DB6029D008E0D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AddCell.storyboard; sourceTree = "<group>"; };
+		786940161DB602FC008E0D79 /* AddCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCellViewController.swift; sourceTree = "<group>"; };
+		787435601DAF5BE800F0AAAB /* Quak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		787435631DAF5BE800F0AAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		787435681DAF5BE800F0AAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7874356A1DAF5BE800F0AAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7874356D1DAF5BE800F0AAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7874356F1DAF5BE800F0AAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BF74601DB614EA001E7141 /* DWTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWTextView.swift; sourceTree = "<group>"; };
+		78C0753D1DAF637900E29342 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "Pods/../build/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		78C0753F1DAF63B500E29342 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "Pods/../build/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		78C075401DAF63B500E29342 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../../../Library/Developer/Xcode/DerivedData/Quak-ffmpshkjpuapsjceaxlgmjbygsjw/Build/Products/Debug-iphonesimulator/Result/Result.framework"; sourceTree = "<group>"; };
+		78C075441DAF63F900E29342 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "Pods/../build/Debug-iphoneos/ReactiveCocoa/ReactiveCocoa.framework"; sourceTree = "<group>"; };
+		78C0754A1DAF661C00E29342 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		78C5208C1DB0BD6F0063E767 /* UIDevice+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
+		78C5208E1DB0C7B10063E767 /* DWGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWGradientView.swift; sourceTree = "<group>"; };
+		78C520901DB0CA1D0063E767 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		78C520921DB0E7BE0063E767 /* DWIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DWIconCell.swift; sourceTree = "<group>"; };
+		CD05E382A2230B678C68CD41 /* Pods_Quak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F9FA28488AE0DFB0CA7B19 /* Pods-Quak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quak/Pods-Quak.debug.xcconfig"; sourceTree = "<group>"; };
+		F03D72B045F8626B4E5E4435 /* Pods-Quak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quak.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quak/Pods-Quak.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7874355D1DAF5BE800F0AAAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781492D61DC09F4900A44D09 /* Pods_All_Quak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70DCC5A48E43F17920E6CAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				781492D51DC09F4900A44D09 /* Pods_All_Quak.framework */,
+				78C075441DAF63F900E29342 /* ReactiveCocoa.framework */,
+				78C0753F1DAF63B500E29342 /* ReactiveCocoa.framework */,
+				78C075401DAF63B500E29342 /* Result.framework */,
+				78C0753D1DAF637900E29342 /* ReactiveCocoa.framework */,
+				1532C550CD48174A49B767EA /* Pods_All_Quak.framework */,
+				CD05E382A2230B678C68CD41 /* Pods_Quak.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		780BA65B1DB0AD55005E4BD2 /* Colle */ = {
+			isa = PBXGroup;
+			children = (
+				780BA65C1DB0AD55005E4BD2 /* Controller */,
+				780BA65D1DB0AD55005E4BD2 /* Model */,
+				780BA65E1DB0AD55005E4BD2 /* View */,
+			);
+			path = Colle;
+			sourceTree = "<group>";
+		};
+		780BA65C1DB0AD55005E4BD2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				780BA6611DB0B886005E4BD2 /* DWMainCollectionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		780BA65D1DB0AD55005E4BD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				780BA65F1DB0AD7D005E4BD2 /* schemes.plist */,
+				78194EE51DB49AFD004752B2 /* DWItems.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		780BA65E1DB0AD55005E4BD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78C5208E1DB0C7B10063E767 /* DWGradientView.swift */,
+				78C520921DB0E7BE0063E767 /* DWIconCell.swift */,
+				7839DD201DB71A4700CA72DE /* DWRoundView.swift */,
+				786586611DB8B8D400264391 /* DWWidgetView.swift */,
+				7865865F1DB8B86E00264391 /* DWWidgetView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		786940121DB602EA008E0D79 /* AddCell */ = {
+			isa = PBXGroup;
+			children = (
+				786940131DB602EA008E0D79 /* Controller */,
+				786940141DB602EA008E0D79 /* Model */,
+				786940151DB602EA008E0D79 /* View */,
+			);
+			path = AddCell;
+			sourceTree = "<group>";
+		};
+		786940131DB602EA008E0D79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				786940161DB602FC008E0D79 /* AddCellViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		786940141DB602EA008E0D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		786940151DB602EA008E0D79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78605FDF1DB60A3100FA775F /* DWTextField.swift */,
+				78BF74601DB614EA001E7141 /* DWTextView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		787435571DAF5BE800F0AAAB = {
+			isa = PBXGroup;
+			children = (
+				787435621DAF5BE800F0AAAB /* Quak */,
+				787435611DAF5BE800F0AAAB /* Products */,
+				D1E801B3039CF6B095FF37B4 /* Pods */,
+				70DCC5A48E43F17920E6CAD8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		787435611DAF5BE800F0AAAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				787435601DAF5BE800F0AAAB /* Quak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		787435621DAF5BE800F0AAAB /* Quak */ = {
+			isa = PBXGroup;
+			children = (
+				787435631DAF5BE800F0AAAB /* AppDelegate.swift */,
+				4A15D53D1E0420D500502495 /* BaseNavigationController.swift */,
+				787435671DAF5BE800F0AAAB /* Main.storyboard */,
+				7869400F1DB6029D008E0D79 /* AddCell.storyboard */,
+				780BA65B1DB0AD55005E4BD2 /* Colle */,
+				786940121DB602EA008E0D79 /* AddCell */,
+				78C075461DAF65E600E29342 /* Other */,
+				7874356A1DAF5BE800F0AAAB /* Assets.xcassets */,
+				7874356C1DAF5BE800F0AAAB /* LaunchScreen.storyboard */,
+				7874356F1DAF5BE800F0AAAB /* Info.plist */,
+			);
+			path = Quak;
+			sourceTree = "<group>";
+		};
+		78C075461DAF65E600E29342 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				78C5208C1DB0BD6F0063E767 /* UIDevice+.swift */,
+				7839DD221DB766FB00CA72DE /* String+.swift */,
+				78C520901DB0CA1D0063E767 /* UIColor+.swift */,
+				7865865D1DB8A8F800264391 /* UIView+.swift */,
+				78C0754A1DAF661C00E29342 /* Bridge.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D1E801B3039CF6B095FF37B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DAA8A1F3CC3352F28FC8110 /* Pods-All-Quak.debug.xcconfig */,
+				0ECF077D3DC82340165D2B7E /* Pods-All-Quak.release.xcconfig */,
+				E2F9FA28488AE0DFB0CA7B19 /* Pods-Quak.debug.xcconfig */,
+				F03D72B045F8626B4E5E4435 /* Pods-Quak.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7874355F1DAF5BE800F0AAAB /* Quak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 787435721DAF5BE800F0AAAB /* Build configuration list for PBXNativeTarget "Quak" */;
+			buildPhases = (
+				9807147F0FE30E208D98CB58 /* [CP] Check Pods Manifest.lock */,
+				7874355C1DAF5BE800F0AAAB /* Sources */,
+				7874355D1DAF5BE800F0AAAB /* Frameworks */,
+				7874355E1DAF5BE800F0AAAB /* Resources */,
+				FED00A823195696D077F2BA5 /* [CP] Embed Pods Frameworks */,
+				772E94A412DE48FCBCECD0C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quak;
+			productName = Quak;
+			productReference = 787435601DAF5BE800F0AAAB /* Quak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		787435581DAF5BE800F0AAAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mangonob;
+				TargetAttributes = {
+					7874355F1DAF5BE800F0AAAB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RXLA5TBA2W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7874355B1DAF5BE800F0AAAB /* Build configuration list for PBXProject "Quak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 787435571DAF5BE800F0AAAB;
+			productRefGroup = 787435611DAF5BE800F0AAAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7874355F1DAF5BE800F0AAAB /* Quak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7874355E1DAF5BE800F0AAAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7874356E1DAF5BE800F0AAAB /* LaunchScreen.storyboard in Resources */,
+				786586601DB8B86E00264391 /* DWWidgetView.xib in Resources */,
+				786940111DB6029D008E0D79 /* AddCell.storyboard in Resources */,
+				7874356B1DAF5BE800F0AAAB /* Assets.xcassets in Resources */,
+				787435691DAF5BE800F0AAAB /* Main.storyboard in Resources */,
+				780BA6601DB0AD7D005E4BD2 /* schemes.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		772E94A412DE48FCBCECD0C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-All-Quak/Pods-All-Quak-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9807147F0FE30E208D98CB58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FED00A823195696D077F2BA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-All-Quak/Pods-All-Quak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7874355C1DAF5BE800F0AAAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78605FE01DB60A3100FA775F /* DWTextField.swift in Sources */,
+				787435641DAF5BE800F0AAAB /* AppDelegate.swift in Sources */,
+				78BF74611DB614EA001E7141 /* DWTextView.swift in Sources */,
+				78C520931DB0E7BE0063E767 /* DWIconCell.swift in Sources */,
+				78194EE61DB49AFD004752B2 /* DWItems.swift in Sources */,
+				78C5208D1DB0BD6F0063E767 /* UIDevice+.swift in Sources */,
+				786940171DB602FC008E0D79 /* AddCellViewController.swift in Sources */,
+				786586621DB8B8D400264391 /* DWWidgetView.swift in Sources */,
+				4A15D53E1E0420D500502495 /* BaseNavigationController.swift in Sources */,
+				780BA6621DB0B886005E4BD2 /* DWMainCollectionController.swift in Sources */,
+				7839DD211DB71A4700CA72DE /* DWRoundView.swift in Sources */,
+				7839DD231DB766FB00CA72DE /* String+.swift in Sources */,
+				7865865E1DB8A8F800264391 /* UIView+.swift in Sources */,
+				78C5208F1DB0C7B10063E767 /* DWGradientView.swift in Sources */,
+				78C520911DB0CA1D0063E767 /* UIColor+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7869400F1DB6029D008E0D79 /* AddCell.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				786940101DB6029D008E0D79 /* Base */,
+			);
+			name = AddCell.storyboard;
+			sourceTree = "<group>";
+		};
+		787435671DAF5BE800F0AAAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				787435681DAF5BE800F0AAAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7874356C1DAF5BE800F0AAAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7874356D1DAF5BE800F0AAAB /* Base */,
+				4A15D53C1E03EE2400502495 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		787435701DAF5BE800F0AAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		787435711DAF5BE800F0AAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		787435731DAF5BE800F0AAAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DAA8A1F3CC3352F28FC8110 /* Pods-All-Quak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RXLA5TBA2W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CommonModule/GoogleMobileAdsSdkiOS",
+					"$(PROJECT_DIR)/CommonModule/Inmobi",
+					"$(PROJECT_DIR)/Quak/CommonModule/GoogleMobileAdsSdkiOS",
+				);
+				INFOPLIST_FILE = Quak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CommonModule/Inmobi/AdMobMediation_Adapter_InMobi_iOS_600",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mangonob.Quak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Quak/Other/Bridge.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = Swift.h;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		787435741DAF5BE800F0AAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECF077D3DC82340165D2B7E /* Pods-All-Quak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RXLA5TBA2W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CommonModule/GoogleMobileAdsSdkiOS",
+					"$(PROJECT_DIR)/CommonModule/Inmobi",
+					"$(PROJECT_DIR)/Quak/CommonModule/GoogleMobileAdsSdkiOS",
+				);
+				INFOPLIST_FILE = Quak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CommonModule/Inmobi/AdMobMediation_Adapter_InMobi_iOS_600",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mangonob.Quak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Quak/Other/Bridge.h;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = Swift.h;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7874355B1DAF5BE800F0AAAB /* Build configuration list for PBXProject "Quak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787435701DAF5BE800F0AAAB /* Debug */,
+				787435711DAF5BE800F0AAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		787435721DAF5BE800F0AAAB /* Build configuration list for PBXNativeTarget "Quak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				787435731DAF5BE800F0AAAB /* Debug */,
+				787435741DAF5BE800F0AAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 787435581DAF5BE800F0AAAB /* Project object */;
+}
